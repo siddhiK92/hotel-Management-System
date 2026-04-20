@@ -1,5 +1,5 @@
 // src/utils/api.js
-const BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const BASE = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 
 export const api = async (endpoint, options = {}) => {
   const token = localStorage.getItem('hms_token');
