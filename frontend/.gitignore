@@ -1,0 +1,7 @@
+# frontend/.gitignore
+node_modules/
+/build
+.env.local
+node_modules/
+.env
+# package-lock.json
